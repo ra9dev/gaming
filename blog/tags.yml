@@ -1,19 +1,24 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+postmortem:
+  label: postmortem
+  permalink: /postmortem
+  description: what went right, what went wrong, and anything learned after completing a project
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+gd:
+  label: game design
+  permalink: /game-design
+  description: setting the game up to give the player the best possible feelings
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+tech:
+  label: tech
+  permalink: /tech
+  description: tinkering around with the game engine (UE5)
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+art:
+  label: art
+  permalink: /art
+  description: people strive for beauty
+
+marketing:
+  label: marketing
+  permalink: /marketing
+  description: putting the game in front of many people

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgaming=globalThis.webpackChunkgaming||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"I\'m done? with games","permalink":"/gaming/blog/im-done","unlisted":false,"date":"2026-02-26T00:00:00.000Z"}]}')}}]);
