@@ -10,9 +10,10 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "rA9gaming",
+  tagline: "Games are cool",
   favicon: "img/favicon.ico",
+  plugins: ["./src/plugins/tailwind-config.js"],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -20,15 +21,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://ra9dev.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/gaming/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "ra9dev", // Usually your GitHub org/user name.
+  projectName: "gaming", // Usually your repo name.
 
   onBrokenLinks: "throw",
 
@@ -83,18 +84,18 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: "My Site",
+        title: "rA9",
         logo: {
-          alt: "My Site Logo",
+          alt: "Gaming",
           src: "img/logo.svg",
         },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial",
-          },
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "blogSidebar",
+          //   position: "left",
+          //   label: "Blog",
+          // },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/facebook/docusaurus",
@@ -107,11 +108,11 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Quick Links",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Blog",
+                to: "/blog",
               },
             ],
           },
@@ -119,34 +120,22 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "X",
-                href: "https://x.com/docusaurus",
+                label: "itch.io",
+                href: "https://ra9dev.itch.io",
               },
             ],
           },
           {
-            title: "More",
+            title: "Grand Scheme",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Secrets",
+                to: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ra9dev, Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,
