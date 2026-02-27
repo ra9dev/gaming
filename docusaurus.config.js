@@ -13,7 +13,6 @@ const config = {
   title: "rA9gaming",
   tagline: "Games are cool",
   favicon: "img/favicon.ico",
-  plugins: ["./src/plugins/tailwind-config.js"],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
