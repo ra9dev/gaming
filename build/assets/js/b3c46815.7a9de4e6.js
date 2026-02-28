@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkgaming=globalThis.webpackChunkgaming||[]).push([[91],{9616(a){a.exports=JSON.parse('{"authors":[{"name":"RA9 DEV","title":"GD in training","socials":{"email":"mailto:ra9dev@gmail.com"},"imageURL":"https://avatars.githubusercontent.com/u/47022505?v=4","key":"ra9dev","page":null,"count":1}]}')}}]);

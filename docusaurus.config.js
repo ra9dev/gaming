@@ -135,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ra9dev, Built with Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} rA9gaming, Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,
