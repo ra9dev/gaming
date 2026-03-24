@@ -1,0 +1,38 @@
+.page {
+  width: 100%;
+  padding: 2rem;
+}
+
+.contentWrapper {
+  display: flex;
+}
+
+.profileImg {
+  flex: 1 1 100%;
+  width: 50%;
+  object-fit: contain;
+}
+
+.infoWrapper {
+  flex: 1 1 100%;
+  padding-left: 32px;
+}
+
+@media only screen and (max-width: 768px) {
+  .page {
+    padding: 1rem 0;
+  }
+
+  .contentWrapper {
+    flex-flow: column;
+  }
+
+  .profileImg {
+    width: 100%;
+  }
+
+  .infoWrapper {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+}

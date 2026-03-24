@@ -13,6 +13,7 @@ const config = {
   title: "rA9gaming",
   tagline: "Games are cool",
   favicon: "img/favicon.ico",
+  plugins: ["docusaurus-plugin-sass"],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -69,7 +70,7 @@ const config = {
           onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: [require.resolve("./src/css/custom.scss")],
         },
       }),
     ],

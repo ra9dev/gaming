@@ -18,7 +18,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/blog">
-            {`•͡˘㇁•͡˘ blog`}
+            {`ʕっ•ᴥ•ʔっ blog`}
           </Link>
         </div>
       </div>
