@@ -13,7 +13,18 @@ const config = {
   title: "rA9gaming",
   tagline: "Games are cool",
   favicon: "img/favicon.ico",
-  plugins: ["docusaurus-plugin-sass"],
+  plugins: [
+    "docusaurus-plugin-sass",
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "unreal", // Required: must be unique
+        path: "unreal", // Folder on your computer
+        routeBasePath: "unreal", // URL route (e.g., ://mysite.com)
+        sidebarPath: "./sidebars.js",
+      },
+    ],
+  ],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -46,14 +57,11 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: false,
-        // docs: {
-        // sidebarPath: "./sidebars.js",
-        // Please change this to your repo.
-        // Remove this to remove the "edit this page" links.
-        // editUrl:
-        //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        // },
+        docs: {
+          path: "3d",
+          routeBasePath: "3d",
+          sidebarPath: "./sidebars.js",
+        },
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -91,34 +99,38 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          // {
-          //   type: "docSidebar",
-          //   sidebarId: "blogSidebar",
-          //   position: "left",
-          //   label: "Blog",
-          // },
-          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
+            type: "docSidebar",
+            sidebarId: "3d",
+            label: "101 LVL of 3D",
           },
+          {
+            type: "docSidebar",
+            sidebarId: "unreal",
+            docsPluginId: "unreal",
+            label: "UNREAL T&T",
+          },
+          { to: "/blog", label: "BLOG" },
         ],
       },
       footer: {
         style: "dark",
         links: [
           {
-            title: "Quick Links",
+            title: "Contacts",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Steam",
+                to: "https://steamcommunity.com/id/ra9gaming",
+              },
+              {
+                label: "Email",
+                to: "mailto:ra9dev@gmail.com",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Portfolio",
             items: [
               {
                 label: "itch.io",
