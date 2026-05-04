@@ -15,6 +15,7 @@ import Mastodon from "@theme/Icon/Socials/Mastodon";
 import Twitch from "@theme/Icon/Socials/Twitch";
 import Email from "@theme/Icon/Socials/Email";
 import Steam from "./Steam";
+import Attribution from "./Attribution";
 import styles from "./styles.module.css";
 
 const SocialPlatformConfigs = {
@@ -31,6 +32,7 @@ const SocialPlatformConfigs = {
   twitch: { Icon: Twitch, label: "Twitch" },
   email: { Icon: Email, label: "Email" },
   steam: { Icon: Steam, label: "Steam" },
+  attribution: { Icon: Attribution, label: "Attribution" },
 };
 
 function getSocialPlatformConfig(platformKey) {

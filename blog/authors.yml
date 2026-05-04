@@ -1,8 +1,9 @@
 ra9dev:
-  name: RA9 DEV
-  title: GD in training
-  image_url: https://avatars.githubusercontent.com/u/47022505?v=4
+  name: Tiger.Whiskers
+  title: UE5 DEV + 3D ART
+  image_url: /img/tiger.png
   socials:
-    steam: https://steamcommunity.com/id/ra9gaming
+    steam: https://steamcommunity.com/id/TigerWhiskers
     email: ra9dev@gmail.com
+    attribution: https://www.flaticon.com/free-icon/cool_4688508
   #   https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog

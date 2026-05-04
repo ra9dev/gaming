@@ -4,8 +4,8 @@ sidebar_position: 1
 
 # LVL 1
 
-:::info[OVERVIEW]
-You will install and start Blender (for the first time?)
+:::info[How-to]
+Install and start Blender (for the first time?)
 :::
 
 ---

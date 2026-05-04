@@ -15,6 +15,7 @@ const config = {
   favicon: "img/favicon.ico",
   plugins: [
     "docusaurus-plugin-sass",
+    "docusaurus-plugin-image-zoom",
     [
       "@docusaurus/plugin-content-docs",
       {
@@ -121,7 +122,7 @@ const config = {
             items: [
               {
                 label: "Steam",
-                to: "https://steamcommunity.com/id/ra9gaming",
+                to: "https://steamcommunity.com/id/TigerWhiskers",
               },
               {
                 label: "Email",
@@ -153,6 +154,16 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      zoom: {
+        selector: ".markdown :not(em) > img",
+        background: {
+          light: "rgb(255, 255, 255)",
+          dark: "rgb(50, 50, 50)",
+        },
+        config: {
+          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        },
       },
     }),
 };
