@@ -26,13 +26,13 @@ export default function HomepageFeatures() {
           <p>{"True knowledge is meant to be shared."}</p>
           <ul>
             <li>
-              <Link to="/3d/intro">{"101 LVL of 3D Modeling"}</Link>
+              <Link to="/3d/lvl-1">{"101 LVL of 3D Modeling"}</Link>
             </li>
             <li>
               <Link to="/unreal/intro">{"Unreal Engine Tips & Tricks"}</Link>
             </li>
             <li>
-              <Link to="/blog">{"Chaotic thoughts"}</Link>
+              <Link to="/blog">{"Studio Blog"}</Link>
             </li>
           </ul>
         </div>

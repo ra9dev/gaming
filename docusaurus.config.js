@@ -10,8 +10,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "rA9gaming",
-  tagline: "Games are cool",
+  title: "WHISKERS ENTERTAINMENT",
+  tagline: "indie studio made by 2 brothers with cat names",
   favicon: "img/favicon.ico",
   plugins: [
     "docusaurus-plugin-sass",
@@ -93,7 +93,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: "rA9",
+        title: "WE",
         logo: {
           alt: "Gaming",
           src: "img/logo.svg",
@@ -110,7 +110,7 @@ const config = {
             docsPluginId: "unreal",
             label: "UNREAL T&T",
           },
-          { to: "/blog", label: "BLOG" },
+          { to: "/blog", label: "STUDIO" },
         ],
       },
       footer: {
