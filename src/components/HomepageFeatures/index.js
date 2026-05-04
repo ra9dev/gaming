@@ -29,7 +29,7 @@ export default function HomepageFeatures() {
               <Link to="/3d/lvl-1">{"101 LVL of 3D Modeling"}</Link>
             </li>
             <li>
-              <Link to="/unreal/intro">{"Unreal Engine Tips & Tricks"}</Link>
+              <Link to="/unreal/overview">{"Unreal Engine Tips & Tricks"}</Link>
             </li>
             <li>
               <Link to="/blog">{"Studio Blog"}</Link>

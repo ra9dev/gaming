@@ -1,24 +1,23 @@
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import styles from "./styles.module.scss";
 
-export default function KeyButton({ keyName, text, secondKeyName }) {
+export default function KeyButton({ keyName, text, comboKeys = [] }) {
   return (
-    <div className={styles.row}>
+    <div className="row row--align-center">
       <img
         decoding="async"
         loading="lazy"
         src={useBaseUrl(`img/kbm/${keyName || "mouse"}.svg`)}
       />
-      {secondKeyName && (
+      {comboKeys.map((key) => (
         <>
           <span>{"+"}</span>
           <img
             decoding="async"
             loading="lazy"
-            src={useBaseUrl(`img/kbm/${secondKeyName || "mouse"}.svg`)}
+            src={useBaseUrl(`img/kbm/${key || "mouse"}.svg`)}
           />
         </>
-      )}
+      ))}
       <span>{text}</span>
     </div>
   );

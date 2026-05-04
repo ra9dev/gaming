@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgaming=self.webpackChunkgaming||[]).push([["3220"],{1912(g){g.exports=JSON.parse('{"blogBasePath":"/gaming/blog","blogTitle":"Blog","authorsListPath":"/gaming/blog/authors"}')}}]);

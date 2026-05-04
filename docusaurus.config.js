@@ -149,7 +149,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} rA9gaming, Built with Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Whiskers Entertainment, Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,

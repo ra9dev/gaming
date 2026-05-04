@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgaming=self.webpackChunkgaming||[]).push([["891"],{7617(t){t.exports=JSON.parse('{"tags":[{"label":"postmortem","permalink":"/gaming/blog/tags/postmortem","description":"what went right, what went wrong, and anything learned after completing a project","count":1}]}')}}]);
