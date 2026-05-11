@@ -6,22 +6,21 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.page}>
       <div className={clsx("container", styles.contentWrapper)}>
-        <img className={styles.profileImg} src={"img/profile.jpg"} />
+        <img className={styles.profileImg} src={"img/SHERKHAN.jpg"} />
         <div className={styles.separator}></div>
         <div className={styles.infoWrapper}>
-          <h2>{"Author — Sherkhan Kubaidullov"}</h2>
-          <p className={styles.quote}>
+          <h2>{`🐯Sherkhan & 🦁Arslan`}</h2>
+          <hr />
+          <p>
             <i>
               {
-                "I play games, I develop games, I design game art, I breathe games. For me, life itself is a game in many ways."
+                "We play games, we develop games, we design games. For us, life itself is a game in many ways."
               }
             </i>
           </p>
-          <p>{`Well, hello there, rare guest!`}</p>
+          <hr />
           <p>
-            {
-              "Here you’ll find a list of my professional adventures, divided into separate disciplines and completely free."
-            }
+            {"Project-in-Motion: "} <b>{"Agony Dolls (to be disclosed)"}</b>
           </p>
           <p>{"True knowledge is meant to be shared."}</p>
           <ul>
@@ -39,7 +38,7 @@ export default function HomepageFeatures() {
         <div className={styles.separator}></div>
         <img
           className={clsx(styles.profileImg, styles.profileImg__achivements)}
-          src={"img/achievements.png"}
+          src={"img/ARSLAN.jpg"}
         />
       </div>
     </section>
