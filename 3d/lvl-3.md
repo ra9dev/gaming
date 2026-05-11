@@ -27,7 +27,7 @@ After completing the previous LVL, your cube likely looks like a mess of chaotic
 
 A LOT of Blender tutorials try to push multiple concepts on a newbie's plate. 
 
-Most of the people repeat the process like 🐵 monkeys and never TRULY learn what they've done. It's better to **take things slowly and methodically**.
+Most of the people repeat the process like 🐵monkeys and never TRULY learn what they've done. It's better to **take things slowly and methodically**.
 
 ### Basic Shape
 

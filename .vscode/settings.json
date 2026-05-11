@@ -1,0 +1,5 @@
+{
+  "[mdx]": {
+    "js/ts.validate.enabled": false
+  }
+}

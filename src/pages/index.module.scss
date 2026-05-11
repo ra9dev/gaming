@@ -1,0 +1,48 @@
+.heroBanner {
+  padding: 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  background-image: url("/img/Logo_Studio.png");
+  background-size: auto 100%; /* Scales width to 100%, height adjusts automatically */
+  background-repeat: repeat-x; /* Repeats the image only vertically */
+  width: 100%;
+  min-height: 240px;
+  animation: slide 15s linear infinite;
+
+  &__inverted {
+    animation-direction: reverse;
+  }
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -500px 0; /* Match this to your background-size width for a seamless loop */
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .logo {
+    min-height: 100px;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

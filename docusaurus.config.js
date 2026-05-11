@@ -109,7 +109,10 @@ const config = {
             type: "docSidebar",
             sidebarId: "unreal",
             docsPluginId: "unreal",
-            label: "UNREAL T&T",
+            label: "UNREAL EVO",
+            link: {
+              type: "generated-index",
+            },
           },
           { to: "/blog", label: "STUDIO" },
         ],
