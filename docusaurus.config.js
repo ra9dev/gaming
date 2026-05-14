@@ -57,7 +57,7 @@ const config = {
     [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           path: "3d",
           routeBasePath: "3d",
@@ -81,7 +81,11 @@ const config = {
         theme: {
           customCss: [require.resolve("./src/css/custom.scss")],
         },
-      }),
+        gtag: {
+          trackingID: "G-KCECFZ0WY8",
+          anonymizeIP: false,
+        },
+      },
     ],
   ],
 

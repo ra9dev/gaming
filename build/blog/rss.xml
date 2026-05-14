@@ -4,17 +4,57 @@
         <title>WHISKERS ENTERTAINMENT Blog</title>
         <link>https://ra9dev.github.io/gaming/blog</link>
         <description>WHISKERS ENTERTAINMENT Blog</description>
-        <lastBuildDate>Thu, 26 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Game Undefeatability Document (GUD)]]></title>
+            <link>https://ra9dev.github.io/gaming/blog/gud</link>
+            <guid>https://ra9dev.github.io/gaming/blog/gud</guid>
+            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ask yourself in your heart of hearts: “WHY is there a near-ZERO chance that MY GAME will FLOP?”]]></description>
+            <content:encoded><![CDATA[<p>Ask yourself in your heart of hearts: <strong>“WHY is there a near-ZERO chance that MY GAME will FLOP?”</strong></p>
+<p>And if the answer reveals a non-zero chance… well, you need to get GUD.</p>
+<!-- -->
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win.</p><p><strong>Sun Tzu</strong></p></div></div>
+<p><em>The content that follows is a living example of the philosophy we preach in the studio. This document will undergo incremental improvements throughout the game development cycle.</em></p>
+<p><strong>Project:</strong> Agony Dolls (WIP)<br>
+<strong>Version:</strong> 2026.05.15.A.A.A</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-does-the-game-hook-instantly">Why does the game hook instantly?<a href="https://ra9dev.github.io/gaming/blog/gud#why-does-the-game-hook-instantly" class="hash-link" aria-label="Direct link to Why does the game hook instantly?" title="Direct link to Why does the game hook instantly?" translate="no">​</a></h3>
+<p>(First 5–15 minutes experience)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-are-the-characters-compelling">Why are the characters compelling?<a href="https://ra9dev.github.io/gaming/blog/gud#why-are-the-characters-compelling" class="hash-link" aria-label="Direct link to Why are the characters compelling?" title="Direct link to Why are the characters compelling?" translate="no">​</a></h3>
+<p>(Design, personality, progression fantasy, emotional connection)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-does-navigation-feel-fluid">Why does navigation feel fluid?<a href="https://ra9dev.github.io/gaming/blog/gud#why-does-navigation-feel-fluid" class="hash-link" aria-label="Direct link to Why does navigation feel fluid?" title="Direct link to Why does navigation feel fluid?" translate="no">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="ACHV_POTION_CRAFT" src="https://ra9dev.github.io/gaming/assets/images/ACHV_POTION_CRAFT-c8c5941f90561366f34b3954042114d7.png" width="1395" height="209" class="img_ev3q"></p>
+<p>After fully completing PotionCraft, I fell so in love with their limited set of locations and the store navigation that I decided to just take this approach and adapt it for my game about a voodoo doll shop.</p>
+<p>In short, the world of PotionCraft consists of 2D locations of different rooms, with the camera looking straight down at a 90-degree angle.
+<strong>To move between rooms, the player uses the WASD keys and essentially "flies" from the bedroom to the laboratory, then to the basement or behind the sales counter.</strong>
+There’s no default walking character like in most game engine templates — only the camera.</p>
+<p>And these are exactly the kind of design limitations that bring ergonomics to the game, significantly improving the player’s quality of life.
+The familiar movement keybinds from larger AAA games work predictably, yet are much simpler at the same time.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-is-core-gameplay-addictive-to-master">Why is core gameplay addictive to master?<a href="https://ra9dev.github.io/gaming/blog/gud#why-is-core-gameplay-addictive-to-master" class="hash-link" aria-label="Direct link to Why is core gameplay addictive to master?" title="Direct link to Why is core gameplay addictive to master?" translate="no">​</a></h3>
+<p>(Combat, building, puzzle, racing — whatever the main activity is)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-is-progression-challenging-and-rewarding">Why is progression challenging and rewarding?<a href="https://ra9dev.github.io/gaming/blog/gud#why-is-progression-challenging-and-rewarding" class="hash-link" aria-label="Direct link to Why is progression challenging and rewarding?" title="Direct link to Why is progression challenging and rewarding?" translate="no">​</a></h3>
+<p>(Power curve, sense of growth, meaningful choices, dopamine balance)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-is-the-world-alive-and-worth-exploring">Why is the world alive and worth exploring?<a href="https://ra9dev.github.io/gaming/blog/gud#why-is-the-world-alive-and-worth-exploring" class="hash-link" aria-label="Direct link to Why is the world alive and worth exploring?" title="Direct link to Why is the world alive and worth exploring?" translate="no">​</a></h3>
+<p>(Exploration, discovery, atmosphere, secrets, reactivity)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-will-players-return-for-dozens-of-sessions">Why will players return for dozens of sessions?<a href="https://ra9dev.github.io/gaming/blog/gud#why-will-players-return-for-dozens-of-sessions" class="hash-link" aria-label="Direct link to Why will players return for dozens of sessions?" title="Direct link to Why will players return for dozens of sessions?" translate="no">​</a></h3>
+<p>(Long-term retention hooks, daily/weekly rewards, mastery ceiling, community)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-does-the-game-feel-fair">Why does the game feel fair?<a href="https://ra9dev.github.io/gaming/blog/gud#why-does-the-game-feel-fair" class="hash-link" aria-label="Direct link to Why does the game feel fair?" title="Direct link to Why does the game feel fair?" translate="no">​</a></h3>
+<p>(Difficulty curve, feedback, failure recovery, anti-frustration systems)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-is-the-experience-memorable-and-shareable">Why is the experience memorable and shareable?<a href="https://ra9dev.github.io/gaming/blog/gud#why-is-the-experience-memorable-and-shareable" class="hash-link" aria-label="Direct link to Why is the experience memorable and shareable?" title="Direct link to Why is the experience memorable and shareable?" translate="no">​</a></h3>
+<p>(Moments of awe, stories players will tell, social virality, uniqueness)</p>]]></content:encoded>
+            <category>game design</category>
+            <category>marketing</category>
+        </item>
         <item>
             <title><![CDATA[Am I done with the games?]]></title>
             <link>https://ra9dev.github.io/gaming/blog/im-done</link>
             <guid>https://ra9dev.github.io/gaming/blog/im-done</guid>
             <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[My BIG problem is that gamedev means way more to me than just a hobby, but no matter what angle I approach it from, I’m extremely bad at making games — YET I CANNOT simply give up and quit.]]></description>
-            <content:encoded><![CDATA[<p>My BIG problem is that gamedev means way more to me than just a hobby, but no matter what angle I approach it from, I’m extremely bad at making games — YET I CANNOT simply give up and quit.</p>
+            <content:encoded><![CDATA[<p>My BIG problem is that gamedev means way more to me than just a hobby, but no matter what angle I approach it from, I’m extremely bad at making games — <strong>YET I CANNOT simply give up and quit.</strong></p>
 <!-- -->
 <p>A short list of my failures:</p>
 <ul>
